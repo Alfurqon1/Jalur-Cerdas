@@ -1,0 +1,170 @@
+:root {
+    --orange: #FF5100;
+    --black: #1A1A1A;
+    --white: #FAFAFA;
+    --secondary: #FFE4D8;
+    --shadow-1: box-shadow: 0px 14px 8px 0px rgba(0, 0, 0, 0.10), -4px 0px 6px 0px rgba(0, 0, 0, 0.10);
+    --shadow-2: box-shadow: 0px 14px 8px 0px rgba(0, 0, 0, 0.10), -4px 0px 6px 0px rgba(0, 0, 0, 0.10);
+}
+
+body {
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar p {
+    color: #1A1A1A;
+}
+
+.nav-item {
+    padding: 0 30px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--orange);
+}
+
+.button {
+    padding: 0 30px;
+}
+
+.button .btn {
+    padding: 10px 16px;
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+}
+
+.button .btn:hover {
+    background-color: #1A1A1A;
+}
+
+/* Form Input */
+.form {
+    padding: 50px 10px;
+}
+
+.form-wrap {
+    padding: 50px 20px;
+    background-color: var(--secondary);
+    border-radius: 20px;
+}
+
+.form-wrap h1 {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.form-input {
+    padding: 0 100px;
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+    padding: 0;
+}
+
+.btn {
+    background-color: var(--orange);
+    border-color: var(--orange);
+}
+
+/* Lokasi Kami */
+.lokasi h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.lokasi-wrap p {
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.lokasi-wrap p a {
+    color: var(--black);
+}
+
+/* footer */
+.footer .container-fluid {
+    padding: 20px 0;
+    background-color: var(--black);
+}
+
+.ft-jalur-cerdas {
+    color: var(--white);
+    margin: 20px 0;
+}
+
+.ft-jalur-cerdas p {
+    font-size: 10px;
+    font-style: normal;
+}
+
+/* Desktop device */
+@media screen and (max-width: 1280px) and (min-width: 990px) {}
+
+/* Laptop device */
+@media screen and (max-width: 990px) and (min-width: 768px) {}
+
+/* Tablet device */
+@media screen and (max-width: 768px) and (min-width: 425px) {
+
+    /* Form Input */
+    .form-input {
+        padding: 0 30px;
+    }
+}
+
+
+
+/* Smartphone */
+@media screen and (max-width: 425px) and (min-width: 320px) {
+
+    /* Form Input */
+    .form {
+        padding: 30px 10px;
+    }
+
+    .form-wrap {
+        padding: 20px 10px;
+        background-color: var(--secondary);
+        border-radius: 20px;
+    }
+
+    .form-wrap h1 {
+        text-align: center;
+        font-weight: 600;
+        padding-bottom: 10px;
+        font-size: 1rem;
+    }
+
+    .form-control {
+        font-size: 0.8rem;
+    }
+
+    .form-input {
+        padding: 0;
+    }
+
+    .button .btn {
+        font-size: 0.8rem;
+    }
+
+    /* Lokasi Kami */
+    .lokasi h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .lokasi p {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}

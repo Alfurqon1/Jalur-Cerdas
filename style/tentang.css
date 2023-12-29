@@ -1,0 +1,396 @@
+:root {
+    --orange: #FF5100;
+    --black: #1A1A1A;
+    --white: #FAFAFA;
+    --secondary: #FFE4D8;
+    --shadow-1: box-shadow: 0px 14px 8px 0px rgba(0, 0, 0, 0.10), -4px 0px 6px 0px rgba(0, 0, 0, 0.10);
+    --shadow-2: box-shadow: 0px 14px 8px 0px rgba(0, 0, 0, 0.10), -4px 0px 6px 0px rgba(0, 0, 0, 0.10);
+}
+
+body {
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar p {
+    color: #1A1A1A;
+}
+
+.nav-item {
+    padding: 0 30px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--orange);
+}
+
+.button {
+    padding: 0 30px;
+}
+
+.button .btn {
+    padding: 10px 16px;
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+}
+
+.button .btn:hover {
+    background-color: #1A1A1A;
+}
+
+/* Home-tentang */
+.hero-tentang {
+    min-height: 40vh;
+}
+
+/* Sejarah-Komunitas */
+.sejarah-komunitas {
+    min-height: 100vh;
+    padding: 50px 0;
+}
+
+.sejarah-komunitas h1 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.sejarah-komunitas-wrap {
+    padding: 50px 0;
+}
+
+.sejarah-komunitas-deskripsi {
+    display: flex;
+    align-items: center;
+}
+
+.sejarah-komunitas-deskripsi p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+
+.sejarah-img img {
+    width: 80%;
+}
+
+/* ekosistem program */
+.ekosistem-program {
+    min-height: 100vh;
+}
+
+.ekosistem-program-deskripsi .title h4 {
+    font-weight: 600;
+    padding: 40px 0;
+}
+
+.list-ekosistem p {
+    font-size: 1rem;
+}
+
+.ekosistem-img img {
+    width: 100rem;
+}
+
+/* Founder */
+.founder {
+    background-color: var(--secondary);
+    padding: 50px 20px;
+}
+
+.founder-wrap {
+    background-color: #FFB899;
+    border: 30px;
+    padding: 20px 20px;
+    border-radius: 30px;
+}
+
+.founder-img {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.founder-img img {
+    width: 100vh;
+}
+
+.quote-founder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-founder p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.quote-founder h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* Visi Misi Jalur Cerdas */
+.visi-misi-jalur-cerdas {
+    min-height: 100vh;
+    padding: 50px 0;
+}
+
+.visi-misi b {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.visi-misi p {
+    font-size: 1rem;
+}
+
+.visi-misi li {
+    font-size: 1rem;
+}
+
+/* footer */
+.footer .container-fluid {
+    padding: 20px 0;
+    background-color: var(--black);
+}
+
+.ft-jalur-cerdas {
+    color: var(--white);
+    margin: 20px 0;
+}
+
+.ft-jalur-cerdas p {
+    font-size: 10px;
+    font-style: normal;
+}
+
+/* Desktop device */
+@media screen and (max-width: 1280px) and (min-width: 990px) {
+
+    /* Founder */
+    .founder {
+        background-color: var(--secondary);
+        padding: 50px 20px;
+    }
+
+    .founder-wrap {
+        background-color: #FFB899;
+        border: 30px;
+        padding: 20px 20px;
+        border-radius: 30px;
+    }
+
+    .founder-img {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .founder-img img {
+        width: 80vh;
+
+    }
+
+    .quote-founder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/* Laptop device */
+@media screen and (max-width: 990px) and (min-width: 768px) {
+
+    /* Sejarah-Komunitas */
+    .sejarah-komunitas h1 {
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .sejarah-komunitas-deskripsi p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .sejarah-img img {
+        width: 60%;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Founder */
+    .founder-img img {
+        width: 30vh;
+    }
+
+    .quote-founder p {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    .quote-founder h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .quote-founder i {
+        font-size: 1rem;
+    }
+}
+
+/* Tablet device */
+@media screen and (max-width: 768px) and (min-width: 425px) {
+
+    /* Sejarah-Komunitas */
+    .sejarah-komunitas h1 {
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .sejarah-komunitas-deskripsi p {
+        font-size: 1rem;
+    }
+
+    .sejarah-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Ekosistem-Program */
+    .ekosistem-program-deskripsi .title h4 {
+        font-weight: 600;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    /* Founder */
+    .founder-img img {
+        width: 30vh;
+    }
+
+    .quote-founder p {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    .quote-founder h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .quote-founder i {
+        font-size: 1rem;
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 425px) and (min-width: 320px) {
+
+    /* hero-tentang */
+    .hero-tentang {
+        min-height: 20vh;
+    }
+
+    /* Sejarah-Komunitas */
+    .sejarah-komunitas {
+        min-height: 80vh;
+        padding: 10px 0;
+    }
+
+    .sejarah-komunitas h1 {
+        font-weight: 600;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .sejarah-komunitas-wrap {
+        padding: 10px 0;
+    }
+
+    .sejarah-komunitas-deskripsi p {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    .sejarah-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sejarah-img img {
+        width: 50%;
+    }
+
+    /* ekosistem program */
+    .ekosistem-program {
+        min-height: 100vh;
+    }
+
+    .ekosistem-program-deskripsi .title h4 {
+        font-weight: 600;
+        padding: 40px 0;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .list-ekosistem p {
+        font-size: 0.8rem;
+    }
+
+    .ekosistem-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ekosistem-img img {
+        width: 50%;
+    }
+
+    /* Founder */
+    .founder-img {
+        padding: 20px;
+    }
+
+    .founder-img img {
+        width: 30vh;
+    }
+
+    .quote-founder p {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    .quote-founder h3 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .quote-founder i {
+        font-size: 0.8rem;
+    }
+
+    /* Visi Misi Jalur Cerdas */
+    .visi-misi-jalur-cerdas {
+        min-height: 100vh;
+        padding: 50px 0;
+    }
+
+    .visi-misi b {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .visi-misi p {
+        font-size: 0.8rem;
+    }
+
+    .visi-misi li {
+        font-size: 0.8rem;
+    }
+}

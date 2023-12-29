@@ -1,0 +1,22 @@
+.login {
+    min-height: 100vh;
+    background-image: url('../assets/asset-js/img-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.wrap-login {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 70vh;
+}
+
+.wrap-login h1 {
+    text-align: center;
+}

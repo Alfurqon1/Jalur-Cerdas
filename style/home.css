@@ -1,0 +1,572 @@
+:root {
+    --orange: #FF5100;
+    --black: #1A1A1A;
+    --white: #FAFAFA;
+    --secondary: #FFE4D8;
+    --shadow-1: box-shadow: 0px 14px 8px 0px rgba(0, 0, 0, 0.10), -4px 0px 6px 0px rgba(0, 0, 0, 0.10);
+    --shadow-2: box-shadow: 0px 14px 8px 0px rgba(0, 0, 0, 0.10), -4px 0px 6px 0px rgba(0, 0, 0, 0.10);
+}
+
+body {
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar p {
+    color: #1A1A1A;
+}
+
+.nav-item {
+    padding: 0 30px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--orange);
+}
+
+.button {
+    padding: 0 30px;
+}
+
+.button .btn {
+    padding: 10px 16px;
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+}
+
+.button .btn:hover {
+    background-color: #1A1A1A;
+}
+
+/* Home */
+.home {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slogan h1 {
+    font-weight: 600;
+    color: var(--orange);
+    font-size: 4rem;
+}
+
+.slogan p {
+    font-size: 1.4rem;
+}
+
+.hero-img-home img {
+    width: 100rem;
+}
+
+/* Kegiatan */
+.kegiatan {
+    min-height: 100vh;
+
+}
+
+.kegiatan h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.kegiatan p {
+    text-align: center;
+}
+
+
+
+.card {
+    margin: 20px 0;
+    width: 18rem;
+}
+
+.card-body h5 {
+    font-weight: 600;
+}
+
+.card-body p {
+    text-align: start;
+    font-size: 1rem;
+}
+
+.btn {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.btn-primary {
+    border-color: var(--orange);
+}
+
+/* Tentang Jalur Cerdas */
+.tentang-jalur-cerdas {
+    min-height: 100vh;
+    padding: 50px 0;
+}
+
+
+
+.tentang-jalur-cerdas h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.deskripsi-tentang {
+    display: flex;
+    align-items: center;
+}
+
+.deskripsi-tentang p {
+    font-size: 1.4rem;
+}
+
+.img-tentang img {
+    width: 100rem;
+}
+
+/* Manfaat-Jalur-Cerdas */
+.img-manfaat img {
+    width: 100rem;
+}
+
+.manfaat-jalur-cerdas {
+    min-height: 100vh;
+}
+
+.manfaat-jalur-cerdas h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.deskripsi-manfaat {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.manfaat {
+    margin: 20px 0;
+}
+
+.manfaat h4 {
+    font-weight: 600;
+}
+
+.manfaat p {
+    font-size: 1.4rem;
+}
+
+/* Apa Kata Mereka */
+.apa-kata-mereka {
+    background-color: var(--secondary);
+    padding: 40px 0;
+    min-height: 100vh;
+}
+
+.apa-kata-mereka h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.apa-kata-mereka {
+    background-color: var(--secondary);
+    padding: 40px 0;
+}
+
+.single-item {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.card-kata-mereka {
+    width: 500px;
+    background-color: var(--white);
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: var(--shadow-2);
+}
+
+.card-kata-mereka .img-person {
+    display: flex;
+    justify-content: center;
+}
+
+.img-person img {
+    width: 40%;
+    border-radius: 100%;
+    padding: 20px 0;
+}
+
+.card-kata-mereka h4 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-kata-mereka p {
+    font-size: 16px;
+    text-align: center;
+    min-width: min-content;
+}
+
+.card-kata-mereka h6 {
+    font-weight: 600;
+    text-align: center;
+}
+
+/* chevron */
+/* right */
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M22 12a10 10 0 0 1-10 10A10 10 0 0 1 2 12A10 10 0 0 1 12 2a10 10 0 0 1 10 10m-12 6l6-6l-6-6l-1.4 1.4l4.6 4.6l-4.6 4.6L10 18Z'/%3E%3C/svg%3E");
+}
+
+/* left */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 24 24'%3E%3Cg transform='rotate(180 12 12)'%3E%3Cpath fill='currentColor' d='M22 12a10 10 0 0 1-10 10A10 10 0 0 1 2 12A10 10 0 0 1 12 2a10 10 0 0 1 10 10m-12 6l6-6l-6-6l-1.4 1.4l4.6 4.6l-4.6 4.6L10 18Z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Ekosistem-Jalur-Cerdas */
+.ekosistem-jalur-cerdas {
+    padding: 50px 0;
+    min-height: 100vh;
+}
+
+.ekosistem-jalur-cerdas h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Relasi-Jalur-Cerdas */
+.relasi {
+    min-height: 100vh;
+    padding: 50px 0;
+}
+
+.relasi h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Tanya Jawab */
+.faq {
+    padding: 50px 0;
+}
+
+.faq h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.tanya-jawab {
+    padding: 50px 0;
+}
+
+.accordion-button {
+    font-size: 1.4rem;
+}
+
+.accordion-body {
+    font-size: 1.2rem;
+}
+
+/* footer */
+.footer .container-fluid {
+    padding: 20px 0;
+    background-color: var(--black);
+}
+
+.ft-jalur-cerdas {
+    color: var(--white);
+    margin: 20px 0;
+}
+
+.ft-jalur-cerdas p {
+    font-size: 10px;
+    font-style: normal;
+}
+
+/* Desktop device */
+@media screen and (max-width: 1280px) and (min-width: 990px) {
+
+    /* Home */
+    .slogan h1 {
+        font-size: 3rem;
+    }
+
+    /* Kegiatan */
+    .card {
+        margin: 20px 0;
+        width: 14rem;
+    }
+
+    /* Manfaat-Jalur-Cerdas */
+    .img-manfaat {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+/* Laptop device */
+@media screen and (max-width: 990px) and (min-width: 768px) {
+
+    /* Home */
+    .slogan h1 {
+        font-size: 2.5rem;
+    }
+
+    /* Kegiatan */
+    .card {
+        width: 14rem;
+    }
+
+    /* Tentang Jalur Cerdas */
+    .deskripsi-tentang p {
+        font-size: 1.2rem;
+    }
+
+    .img-tentang img {
+        width: 100rem;
+    }
+
+    /* Manfaat-Jalur-Cerdas */
+    .manfaat-jalur-cerdas h1 {
+        font-size: 1.8rem;
+    }
+
+    .manfaat p {
+        font-size: 1rem;
+    }
+
+    .img-manfaat {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+/* Tablet device */
+@media screen and (max-width: 768px) and (min-width: 425px) {
+
+    /* Home */
+    .slogan h1 {
+        font-size: 2.2rem;
+    }
+
+    /* Kegiatan */
+    .kegiatan h1 {
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .kegiatan p {
+        font-size: 1rem;
+    }
+
+    .card {
+        margin: 20px 0;
+        width: 15rem;
+    }
+
+    .card-body h1 {
+        font-size: 1.2rem;
+    }
+
+    .card-body p {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+    }
+
+    /* Tentang Jalur Cerdas */
+    .tentang-jalur-cerdas h1 {
+        font-size: 1.8rem;
+    }
+
+    .deskripsi-tentang p {
+        font-size: 1rem;
+    }
+
+    .img-tentang img {
+        width: 100rem;
+    }
+
+    /* Manfaat-Jalur-Cerdas */
+    .img-manfaat {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-manfaat img {
+        width: 70%;
+    }
+
+    .manfaat h4 {
+        font-size: 1.2rem;
+    }
+
+    .manfaat p {
+        font-size: 1rem;
+    }
+
+}
+
+/* Smartphone */
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    /* Home */
+
+    .home {
+        padding: 40px 0 100px 0;
+    }
+
+    .slogan h1 {
+        font-size: 2.2rem;
+    }
+
+    .slogan p {
+        font-size: 0.8rem;
+    }
+
+    .hero-img-home {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-img-home img {
+        width: 70%;
+    }
+
+    /* Kegiatan */
+    .kegiatan h1 {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .kegiatan p {
+        font-size: 0.8rem;
+    }
+
+    .card {
+        margin: 10px 0;
+        width: 14rem;
+    }
+
+    .card-body h5 {
+        font-size: 0.8rem;
+    }
+
+    .card-body p {
+        font-size: 0.5rem;
+    }
+
+    .btn {
+        font-size: 0.5rem;
+    }
+
+    /* Tentang Jalur Cerdas */
+    .tentang-jalur-cerdas h1 {
+        font-size: 1rem;
+    }
+
+    .deskripsi-tentang p {
+        font-size: 0.8rem;
+    }
+
+    .img-tentang {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-tentang img {
+        width: 70%;
+    }
+
+    /* Manfaat-Jalur-Cerdas */
+    .manfaat-jalur-cerdas h1 {
+        font-size: 1rem;
+    }
+
+    .img-manfaat {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-manfaat img {
+        width: 70%;
+    }
+
+    .manfaat h4 {
+        font-size: 1rem;
+    }
+
+    .manfaat p {
+        font-size: 0.8rem;
+    }
+
+    /* Apa Kata Mereka */
+    .apa-kata-mereka h1 {
+        font-size: 1rem;
+    }
+
+    .card-kata-mereka h4 {
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .card-kata-mereka p {
+        font-size: 0.8rem;
+        text-align: center;
+        min-width: min-content;
+    }
+
+    .card-kata-mereka h6 {
+        font-weight: 600;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    /* Ekosistem-Jalur-Cerdas */
+    .ekosistem-jalur-cerdas h1 {
+        font-size: 1rem;
+    }
+
+    /* Relasi-Jalur-Cerdas */
+    .relasi {
+        min-height: auto;
+        padding: 50px 0;
+    }
+
+    /*Tanya Jawab Umum  */
+    .faq h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .accordion-button {
+        font-size: 1rem;
+    }
+
+    .accordion-body {
+        font-size: 0.8rem;
+    }
+}
